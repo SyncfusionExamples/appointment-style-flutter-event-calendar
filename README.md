@@ -1,2 +1,1 @@
-# exclude-dates-in-recurrence-appointment-flutter-event-calendar
-How to exclude the dates from recurrence appointments in the Flutter event calendar (SfCalendar)
+View sample in Flutter knowledge base
