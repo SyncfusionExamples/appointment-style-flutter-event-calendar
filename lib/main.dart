@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_calendar/calendar.dart';
 
-void main() => runApp(AppointmentTextStyle());
+void main() => runApp(const AppointmentTextStyle());
 
 class AppointmentTextStyle extends StatelessWidget {
+  const AppointmentTextStyle({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,7 +15,7 @@ class AppointmentTextStyle extends StatelessWidget {
           child: SfCalendar(
             view: CalendarView.day,
             dataSource: _getCalendarDataSource(),
-            appointmentTextStyle: TextStyle(
+            appointmentTextStyle: const TextStyle(
                 fontSize: 25,
                 color: Color(0xFF045762),
                 letterSpacing: 5,
@@ -31,7 +33,7 @@ class AppointmentTextStyle extends StatelessWidget {
     List<Appointment> appointments = <Appointment>[];
     appointments.add(Appointment(
       startTime: DateTime.now(),
-      endTime: DateTime.now().add(Duration(hours: 1)),
+      endTime: DateTime.now().add(const Duration(hours: 1)),
       subject: 'Meeting',
       color: Colors.pink,
     ));

@@ -1,4 +1,4 @@
-package com.example.flutter_appointmentstyle
+package com.example.appointmentstyle
 
 import io.flutter.embedding.android.FlutterActivity
 
