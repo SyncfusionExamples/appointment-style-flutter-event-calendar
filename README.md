@@ -6,6 +6,8 @@ You can style the appointment text in the Flutter Event Calendar by using the ca
 
 This style doesn't apply for the appointment's in the agenda view of month view, for agenda view appointments styling can be achieved by using the [appointmentTextStyle](https://pub.dev/documentation/syncfusion_flutter_calendar/latest/calendar/AgendaStyle/appointmentTextStyle.html) property from the AgendaStyle.
 
+![AppearanceCustomization](https://user-images.githubusercontent.com/46158936/206435079-08fbcf10-58ac-480b-821f-4dc319c64cb8.png)
+
 For more details, Refer to our UG documentation [Appointment customization](https://help.syncfusion.com/flutter/calendar/appointments#appearance-customization)
 
 ## Requirements to run the demo
